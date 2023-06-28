@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 351px;
+}
+.footer li {
+color: #ffffff;
+}
+.footer ul {
+    height: 280px;
+ display: flex;
+ width: 600px;
+ justify-content: space-between;
+ flex-direction: row;
+ list-style-type: none;
+ align-items: center;
+}
+.footer div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 140px;
+    height: 280px;
+}

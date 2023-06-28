@@ -1,0 +1,11 @@
+@import url(./blocks/bakery.css);
+@import url(./blocks/artysacs.css);
+@import url(./blocks/footer.css);
+@import url(./blocks/map.css);
+@import url(./blocks/menu.css);
+@import url(./blocks/quality.css);
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color:  #202023;
+}
