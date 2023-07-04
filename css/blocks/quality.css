@@ -1,3 +1,54 @@
 .quality {
-    height: 853px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    background: url(../../img/bagraund-quality.png) 10px 165px/cover no-repeat ;
+    background-size: 100% 700px ;
+    height: 855px;
+}
+.quality ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    width: 1100px;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 700px;
+}
+.quality h2 {
+    padding-left: 17%;
+    color: #ffffff;
+    font-size: 64px;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Italiana', serif;
+    font-weight: 400;
+}
+.quality div {
+    display: flex;
+    align-items: center;
+    line-height: 29.05px;
+    font-weight: 500;
+    font-size: 24px;
+    height:198.46px ;
+    width: 292.3px ;
+    color: #ffffff;
+    background-color: gray;
+}
+.quality ul :nth-child(1) {
+ align-self: flex-start;
+}
+.quality ul :nth-child(2) {
+    align-self: center;
+}
+.quality ul :nth-child(3) {
+    align-self: flex-end;
+}
+.quality li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 535px;
 }

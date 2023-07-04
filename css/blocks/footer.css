@@ -1,24 +1,77 @@
 .footer {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
     height: 351px;
-}
-.footer li {
-color: #ffffff;
 }
 .footer ul {
     height: 280px;
  display: flex;
  width: 600px;
+ margin: 0px;
+ padding: 0px;
  justify-content: space-between;
  flex-direction: row;
  list-style-type: none;
  align-items: center;
 }
-.footer div {
+.footer-div{
     display: flex;
+    margin: 0px;
+    justify-content: center;
     flex-direction: column;
-    padding-left: 140px;
-    height: 280px;
+    padding-left: 0px;
+    height: 120px;
+    color: #ffffff;
+}
+
+.footer-connect{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer h2{
+    margin: 0px;
+    padding-bottom: 16px;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 50px;
+    color: #ffffff;
+}
+.footer p {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    color: #ffffff;
+}
+.footer h4 {
+    padding-bottom: 30px;
+    color: dimgray;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 24px;
+    margin: 0 auto;
+}
+.zcb {
+    display: flex;
+    height: 128px;
+    flex-direction: column;
+
+}
+.zxc {
+    padding-bottom: 41px;
+    margin: 0px;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 29px;
+    color: #ffffff;
+}
+.cxz {
+    margin: 0px;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 29px;
+    color: #ffffff;
 }

@@ -54,20 +54,27 @@
  
 
 }
-
+.vipichka button {
+    color: #FFF;
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    width: 79px;
+    height: 34px;
+    border: none;
+    background-color: #C85312;
+}
 .vipichka li:hover {
+    background: linear-gradient(66deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);
     transition: 0.2s;
     background-color: #EBAD51;
 } 
-.vipichka button {
-    border: none;
-    background-color: #C85312;
-    width: 79px;
-    height: 34px;
-}
+
 .vipichka li{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
     background-color: #272727;
     height: 230px;
@@ -96,9 +103,14 @@
     letter-spacing: 0.02em;
 }
 .left {
-    width:215px;
-    height:230px;
+    width:50%;
+    height:100%;
 
+}
+.left img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
 }
 .right {
     display: flex;
@@ -106,48 +118,45 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    width:95px;
-    height:230px;
+    width: 50%;
+    height:100%;
 }
 .right h2 {
     display: flex;
     margin: 0px;
-    font-family: 'Roboto', sans-serif;
-    font-style: thin 100;
-    font-weight: 100;
-    font-size: 18px;
-    line-height: 27px;
+    font-family: 'inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
 }
 .right p {
     display: flex;
-    font-family: 'Roboto', sans-serif;
-    font-style: light 300;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 15px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    padding-top: 15px;
-    padding-bottom: 30px;
-    padding-right: 5px;
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
     color: #ffffff;
-    margin: 0px;
 }
 .right button {
     color: #ffffff;
 }
 .tradishn button{
-    width: 200px;
-    height: 50px;
+    
+    border: none;
+    width: 207px;
+    height: 57px;
     border-radius: 17px;
     border: none;
-    font-style: light 300;
+    font-size: 24px;
+    font-family: 'inter', sans-serif;
+    font-style: normal;
     font-weight: 300;
-    font-size: 20px;
-    line-height: 15px;
+    line-height: normal;
     text-align: center;
     letter-spacing: 0.02em;
     background-color: #B47B48;
