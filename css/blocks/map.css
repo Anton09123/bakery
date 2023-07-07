@@ -1,3 +1,79 @@
 .map {
+    display: flex;
     height: 704px;
+    align-items: center;
+}
+.conteiner {
+    display: flex;
+    align-items: center;
+    padding-left: 9%;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1150px;
+    
+
+}
+.Dad {
+    height: 588px;
+    display: flex;
+    align-items: center;
+}
+.odin {
+    margin: 0px;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.nonodin {
+    color: #ffffff;
+    font-family: 'Italiana', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Contacts2 a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.Contacts3 a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.Contacts3 {
+    padding-top: 40px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+.child2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 275PX;
+}
+.child3 {
+    height: 275PX;
 }

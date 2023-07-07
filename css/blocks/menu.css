@@ -31,6 +31,7 @@
     font-weight: 100;
 }
 .menu button {
+    cursor: pointer;
     width: 160px;
     height: 42px;
     border-radius: 17px;
