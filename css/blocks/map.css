@@ -1,19 +1,20 @@
 .map {
     display: flex;
+    justify-content: center;
     height: 704px;
     align-items: center;
 }
 .bum{
     display: flex;
     align-items: center;
-    /* padding-left: 9%; */
+    
     justify-content: space-between;
     flex-direction: row;
     width: 1150px;
 
 }
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 .Dad {

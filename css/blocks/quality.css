@@ -10,7 +10,7 @@
 }
 .quality ul {
     display: flex;
-    margin: 0px;
+    margin: 0 auto;
     padding: 0px;
     width: 1100px;
     justify-content: space-between;
@@ -18,7 +18,7 @@
     height: 700px;
 }
 .quality h2 {
-    padding-left: 17%;
+    padding-left: 40%;
     color: #ffffff;
     font-size: 64px;
     margin: 0px;
@@ -26,7 +26,7 @@
     font-family: 'Italiana', serif;
     font-weight: 400;
 }
-.quality div {
+.lists {
     display: flex;
     align-items: center;
     line-height: 29.05px;
@@ -51,4 +51,8 @@
     align-items: center;
     flex-direction: column;
     height: 535px;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
 }
