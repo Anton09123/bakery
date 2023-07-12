@@ -1,21 +1,17 @@
 .bakery {
-    display: flex;
+    
     background: url(../../img/bread.png) center/cover no-repeat;
-    height: 1085px;
-    flex-direction: column;
+    
 }
-.glavniypek {
-    padding-left: 140px;
-}
+
 .head {
     display: flex;
-    height: 100px;
     align-items: center;
 }
 .head ul{
+    padding: 0px;
     display: flex;
     margin: 0px;
-    padding-left: 140px;
     justify-content: space-between;
     list-style-type: none;
     width: 600px;
@@ -171,8 +167,15 @@
     color: #ffffff;
 }
 .bakery-background {
-    height: 1085px;
     background: linear-gradient(89deg, #000 0%, rgba(3, 3, 3, 0.00) 30%);
+    padding-bottom: 36px;
+    padding-top: 55px;
+    
+    
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 

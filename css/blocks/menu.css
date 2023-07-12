@@ -7,14 +7,20 @@
 .menu ul {
     display: flex;
     padding: 0px;
-    padding-top: 10px;
     margin: 0px;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 920px;
     list-style-type: none;
 }
-.menu div{
+.containerr {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+}
+.houpe{
     display: flex;
     width: 330px;
     font-size: 20px;

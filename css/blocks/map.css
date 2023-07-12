@@ -3,15 +3,18 @@
     height: 704px;
     align-items: center;
 }
-.conteiner {
+.bum{
     display: flex;
     align-items: center;
-    padding-left: 9%;
+    /* padding-left: 9%; */
     justify-content: space-between;
     flex-direction: row;
     width: 1150px;
-    
 
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
 }
 .Dad {
     height: 588px;

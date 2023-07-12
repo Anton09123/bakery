@@ -5,6 +5,10 @@
     background: url(../../img/photo_2022-06-23_21-45-361.png) center/cover no-repeat ;
     height: 580px;
 }
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
 .overlay {
     display: flex;
     flex-direction: column;
